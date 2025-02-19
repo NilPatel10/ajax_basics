@@ -43,25 +43,36 @@
                 }
             });
         });
-    </script>
+    </script>    
     <style>
-        body, html {
-            min-height: 100vh;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-        }
+    body, html {
+        min-height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
 
-        footer {
-            margin-top: auto;
-        }
+    footer {
+        margin-top: auto;
+    }
 
-        .card-body {
-            display: flex;
-            flex-direction: column;
-            flex-grow: 1;
-        }
-    </style>
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .card {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
