@@ -89,7 +89,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="ajax3.php">Home</a>
                     </li>
-                    
+
                     <li class="nav-item">
                         <a class="nav-link" href="contact.php">Contact Us</a>
                     </li>
@@ -101,7 +101,7 @@
     <div id="data-container"></div>
     
     <footer class="bg-dark text-white text-center py-3 mt-5">
-        <p>Static Footer Text &copy; 2025</p>
+        <p>Footer Text &copy; 2025</p>
     </footer>
 </body>
 </html>
